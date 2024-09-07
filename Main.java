@@ -5,9 +5,13 @@ public class Main {
     }
     //// Non-working average function (needs a fix)
     public static double average(int[] nums) {
+    double sum =0;
+    for (int num : nums) {
+        sum += num;
+    }
     // Placeholder: This function is incomplete and
 	//currently returns 0
-        return 0; // Placeholder
+        return sum / nums.length;
     }
 }
  
