@@ -1,0 +1,106 @@
+git status 
+On branch master
+Your branch is up to date with 'origin/master'.
+nothing to commit, working tree clean
+
+git shortlog
+Jason Driver (1):
+      init commit
+jasondriver (39):
+      Added initial board class and basic game loop with barebones event handler
+      renamed 2048 to non-number beginning, added makefile, added testcases file, and added more functions to Board class
+      added shift_array and board_shift_left methods
+      added unittests
+      added shift right, shift up, and shift down methods
+      fixed shift down method, changed button event handler
+      added is_game_finished method, testcases
+      fixed update_board
+      background
+      added draw_tile method, now draws blocks to screen
+      fixed shift_array method, added border and fixed text centering in draw_tile method
+      added score and score display, modified board update to add a new tile only after a shift occurred
+      added menu panel
+      added more dummy menu options
+      fixed display
+      added click event to dummy menu options
+      added game save and load functions
+      added exit method and fixed undo score
+      added get and set top score methods
+
+git log --graph
+* commit 82430b8efe27dbc92f5e7c188efb808398d06ce9 (HEAD -> master, origin/master, origin/HEAD)
+| Author: jasondriver <37717810+jasondriver@users.noreply.github.com>
+| Date:   Mon Oct 8 14:52:36 2018 -0700
+| 
+|     Update README.md
+|     
+|     revised the readme
+| 
+* commit 1f02969aa761d86748104f1fde60b260e38279b9
+| Author: jasondriver <37717810+jasondriver@users.noreply.github.com>
+| Date:   Mon Sep 24 12:28:24 2018 -0700
+| 
+|     updated readme with easier make command to run
+| 
+* commit dae4fcb7134d2dbe9581b4e10f5c38e7984fbbb8
+| Author: jasondriver <37717810+jasondriver@users.noreply.github.com>
+| Date:   Wed Sep 19 11:03:06 2018 -0700
+| 
+|     minor fix
+| 
+* commit ec3df6fefb78f2d6f8b75a7ddb9b017ec0e2861f
+| Author: jasondriver <jasondriver5@hotmail.com>
+| Date:   Thu Sep 13 19:39:35 2018 -0700
+
+git log --graph --oneline
+* 82430b8 (HEAD -> master, origin/master, origin/HEAD) Update README.md
+* 1f02969 updated readme with easier make command to run
+* dae4fcb minor fix
+* ec3df6f minor fix
+* e361b49 changed game over method
+* ef01960 added gameplay to readme
+* c756bd1 minor fix to clean
+* e1b335e game over method
+* 24d8692 added gameplay to readme
+* 37b86ab fixed load, undo, load, undo bug
+* d9dcdc1 added screenshots to readme
+* 07852c2 completed draw message over screen method
+* 3df6694 minor fixes, added testcases
+* 46fff16 changed makefile, readme
+* 995062c refactored name of test file, changed parts of the README
+* 7cd40eb spacing fix
+* 2918238 fixed undo bug
+* 48379b9 minor test case addition
+* c61db83 added draw message over screen method
+* 15517b9 minor fixes to top score, cleaned up redundant code in main game loop
+* 6f4f6e7 added get and set top score methods
+* 41189b7 added exit method and fixed undo score
+* bffd096 added game save and load functions
+
+git log --all --decorate --oneline --graph
+* 82430b8 (HEAD -> master, origin/master, origin/HEAD) Update README.md
+* 1f02969 updated readme with easier make command to run
+* dae4fcb minor fix
+* ec3df6f minor fix
+* e361b49 changed game over method
+* ef01960 added gameplay to readme
+* c756bd1 minor fix to clean
+* e1b335e game over method
+* 24d8692 added gameplay to readme
+* 37b86ab fixed load, undo, load, undo bug
+* d9dcdc1 added screenshots to readme
+* 07852c2 completed draw message over screen method
+* 3df6694 minor fixes, added testcases
+* 46fff16 changed makefile, readme
+* 995062c refactored name of test file, changed parts of the README
+* 7cd40eb spacing fix
+* 2918238 fixed undo bug
+* 48379b9 minor test case addition
+* c61db83 added draw message over screen method
+* 15517b9 minor fixes to top score, cleaned up redundant code in main game loop
+* 6f4f6e7 added get and set top score methods
+* 41189b7 added exit method and fixed undo score
+* bffd096 added game save and load functions
+
+ git remote
+Origin
